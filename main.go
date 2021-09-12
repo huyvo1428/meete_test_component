@@ -9,7 +9,7 @@ func main() {
 	config := goplayground.Configuration{}
 	validation := goplayground.New(config)
 
-	//ok
+	//<nil>---PASSED
 	fmt.Println("---------------------------------------")
 	fmt.Println("TEST1")
 
@@ -21,7 +21,7 @@ func main() {
 
 	fmt.Println(err)
 
-	//Key: 'Phone' Error:Field validation for 'Phone' failed on the 'required' tag---ok
+	//Key: 'Phone' Error:Field validation for 'Phone' failed on the 'required' tag---PASSED
 	fmt.Println("\n\n---------------------------------------")
 	fmt.Println("TEST2")
 
@@ -33,7 +33,7 @@ func main() {
 
 	fmt.Println(err)
 
-	//Key: 'Phone' Error:Field validation for 'Phone' failed on the 'required' tag---ok
+	//Key: 'Phone' Error:Field validation for 'Phone' failed on the 'required' tag---PASSED
 	fmt.Println("\n\n---------------------------------------")
 	fmt.Println("TEST3")
 
@@ -45,7 +45,7 @@ func main() {
 
 	fmt.Println(err)
 
-	//Key: 'Phone' Error:Field validation for 'Phone' failed on the 'required' tag---ok
+	//Key: 'Phone' Error:Field validation for 'Phone' failed on the 'required' tag---PASSED
 	fmt.Println("\n\n---------------------------------------")
 	fmt.Println("TEST4")
 
@@ -57,7 +57,7 @@ func main() {
 
 	fmt.Println(err)
 
-	//Key: 'Phone' Error:Field validation for 'Phone' failed on the 'required' tag---ok
+	//Key: 'Phone' Error:Field validation for 'Phone' failed on the 'required' tag---PASSED
 	fmt.Println("\n\n---------------------------------------")
 	fmt.Println("TEST5")
 
@@ -69,7 +69,7 @@ func main() {
 
 	fmt.Println(err)
 
-	//Key: 'Phone' Error:Field validation for 'Phone' failed on the 'required' tag---ok
+	//Key: 'Phone' Error:Field validation for 'Phone' failed on the 'required' tag---PASSED
 	fmt.Println("\n\n---------------------------------------")
 	fmt.Println("TEST6")
 
@@ -81,7 +81,7 @@ func main() {
 
 	fmt.Println(err)
 
-	//Key: 'Phone' Error:Field validation for 'Phone' failed on the 'required' tag---ok
+	//Key: 'Phone' Error:Field validation for 'Phone' failed on the 'required' tag---PASSED
 	fmt.Println("\n\n---------------------------------------")
 	fmt.Println("TEST7")
 
@@ -93,7 +93,7 @@ func main() {
 
 	fmt.Println(err)
 
-	//Key: 'Phone' Error:Field validation for 'Phone' failed on the 'required' tag---ok
+	//Key: 'Phone' Error:Field validation for 'Phone' failed on the 'required' tag---PASSED
 	fmt.Println("\n\n---------------------------------------")
 	fmt.Println("TEST8")
 
@@ -105,7 +105,7 @@ func main() {
 
 	fmt.Println(err)
 
-	//Key: 'Phone' Error:Field validation for 'Phone' failed on the 'required' tag---ok
+	//Key: 'Phone' Error:Field validation for 'Phone' failed on the 'required' tag---PASSED
 	fmt.Println("\n\n---------------------------------------")
 	fmt.Println("TEST9")
 
@@ -117,7 +117,7 @@ func main() {
 
 	fmt.Println(err)
 
-	//Key: 'Phone' Error:Field validation for 'Phone' failed on the 'required' tag---FAILD
+	//Key: 'Phone' Error:Field validation for 'Phone' failed on the 'phone' tag---FAILED
 	fmt.Println("\n\n---------------------------------------")
 	fmt.Println("TEST9")
 
