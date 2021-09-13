@@ -119,10 +119,10 @@ func main() {
 
 	//Key: 'Phone' Error:Field validation for 'Phone' failed on the 'phone' tag---FAILED
 	fmt.Println("\n\n---------------------------------------")
-	fmt.Println("TEST9")
+	fmt.Println("TEST10")
 
 	dataValidate1 := struct {
-		Phone string `json:"phone" validate:"phone"`
+		Phone string `json:"phone" validate:"omitempty,phone"`
 	}{}
 
 	err = validation.Struct(dataValidate1)
